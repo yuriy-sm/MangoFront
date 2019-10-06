@@ -8,6 +8,7 @@
     <title>About</title>
     <script src="../main.js"></script>
     <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/playWithStyle.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Alegreya Sans'>
 </head>
 
@@ -26,7 +27,8 @@
         </div>
     </header>
     <div class="container">
-        <p>Contact us form</p>
+        <p><b>Contact us form</b></p>
+        <!-- Here we will have a contact us form torecieve data from user-->
         <div class="ContactUs">
             Name: <input type="text" id="Name" name="Name" value="Mickey"><br>
             Email: <input type="text" id="Email" name="Email" value="mouse@mail.com"><br>
@@ -34,11 +36,17 @@
             <button onclick="contactUs()">Submit</button>
         </div>
     </div>
+<!-- This div to display data that is recieved from databese or from user -->
+    <div class="containerTester">
+            <p><b>Content from the form</b></p>
+        <div class="answer">
+            <p id="answer"></p>
 
-
-
+        </div>
+    </div>
+<!-- footer of the website -->
     <div class="container">
-        <p>This is the first text in about page</p>
+        <p>This is footer text</p>
         <div class="footer">
             <p id="demo"></p>
 
